@@ -5,7 +5,9 @@ body{
 }
 .contact{
     width:fit-content;
-    margin:auto;
+    margin-left:auto;
+    position:absolute;
+    bottom:10px;
     background-color: rgba(0, 0, 0, 0.425);
 }
 .contactLink{
@@ -13,6 +15,29 @@ body{
     color:cyan;
 }
 #headerImg{
+    position: absolute;
     width:200px;
-    display:inline-block;
+    display:block;
+    border-radius: 90%;
+    margin-left: 50px;
+}
+h1{
+    width:fit-content;
+    text-align: center;
+    color:darkcyan; 
+    margin: auto;
+}
+.info{
+    font-size: large;
+    margin:auto;
+    height:100px;
+    margin-bottom: 10px;
+    color:cyan;
+    text-align: left;
+    width:50%;
+    display:block;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.infoBlock{
+    margin-top:15%;
 }
